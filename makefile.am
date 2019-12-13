@@ -1,0 +1,16 @@
+AUTOMAKE_OPTIONS=foreign
+NULL =
+LDADD =
+MAINTAINERCLEANFILES =
+bin_PROGRAMS = ttt
+
+ttt_SOURCES = \
+	main.cpp \
+	$(NULL)
+ttt_LDFLAGS = \
+	-lpthread \
+	$(NULL)
+ttt_CFLAGS = \
+	$(NULL)
+ttt_LDADD = \
+	$(NULL)
